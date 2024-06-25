@@ -1,4 +1,5 @@
-from django.db import models # type: ignore
+from django.db import models
+from django.contrib.auth.models import User
 
 # 게시글 모델
 class Post(models.Model) : 
